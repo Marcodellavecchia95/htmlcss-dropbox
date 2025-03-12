@@ -95,3 +95,45 @@ li {
   font-size: 1rem;
   font-weight: 200;
 }
+
+/* MAIN  */
+
+.hero-section {
+  background-color: #b4d0e7;
+}
+h1 {
+  font-size: 4rem;
+  font: bold;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+.col30 {
+  width: 30%;
+}
+.col30 p {
+  margin-bottom: 30px;
+}
+
+.col70 {
+  width: 70%;
+}
+
+.col30 .blue-button {
+  margin: 0;
+  padding: 10px 20px;
+  width: fit-content;
+  margin-bottom: 30px;
+}
+
+.hero-section .container {
+  position: relative;
+  top: 75px;
+}
+
+.arrow {
+  font-size: 3rem;
+}
+
+.fa-solid {
+  padding-top: 50px;
+}
