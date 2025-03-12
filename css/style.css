@@ -48,6 +48,7 @@ li {
   row-gap: 2rem;
   margin-left: -1rem;
   margin-right: -1rem;
+  justify-content: space-between;
 }
 
 [class*="col"] {
@@ -183,13 +184,15 @@ h1 {
   margin-top: 50px;
   margin-right: 40px;
 }
+.main-section {
+}
 
 .main-section .row {
   margin-top: 40px;
 }
 
 .col33 {
-  width: 33%;
+  width: 30%;
   border: 2px solid #f8f8f8;
 }
 
@@ -222,4 +225,11 @@ h1 {
 .col33 a {
   text-decoration: underline;
   color: #2037b3;
+}
+
+.col33-row {
+  height: 3px;
+  width: 100px;
+  background-color: #f8f8f8;
+  margin: 50px 0;
 }
