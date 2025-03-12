@@ -101,6 +101,10 @@ li {
 .hero-section {
   background-color: #b4d0e7;
 }
+.hero-section .container {
+  max-width: 1300px;
+}
+
 h1 {
   font-size: 4rem;
   font: bold;
@@ -134,6 +138,88 @@ h1 {
   font-size: 3rem;
 }
 
-.fa-solid {
-  padding-top: 50px;
+.col30 .fa-solid {
+  padding-top: 70px;
+}
+
+.hero-row {
+  height: 2px;
+  width: 100%;
+  background-color: #f8f8f8;
+  margin-top: 150px;
+}
+
+.central-column {
+  margin-top: 120px;
+}
+
+.container .h2 {
+  font-size: 2rem;
+}
+.radio-button {
+  display: flex;
+  align-items: center;
+}
+.left-radio-button {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 5px solid #015eef;
+  background-color: white;
+  margin-top: 50px;
+  margin-right: 5px;
+}
+
+.right-radio-button {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #d4d4d4;
+  background-color: white;
+  margin-top: 50px;
+  margin-right: 5px;
+}
+.radio-button span {
+  margin-top: 50px;
+  margin-right: 40px;
+}
+
+.main-section .row {
+  margin-top: 40px;
+}
+
+.col33 {
+  width: 33%;
+  border: 2px solid #f8f8f8;
+}
+
+.col33-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+.col33-main p {
+  margin: 15px 0;
+}
+
+.col33 ul {
+  margin: 30px 0;
+}
+
+.col33 li {
+  display: block;
+  margin: 10px 0;
+}
+
+.col33 .blue-button {
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.col33 a {
+  text-decoration: underline;
+  color: #2037b3;
 }
