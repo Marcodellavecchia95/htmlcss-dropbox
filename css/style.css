@@ -14,12 +14,17 @@ img {
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 ul {
   list-style-type: none;
 }
 
+li {
+  display: inline-block;
+  margin: 0 10px;
+}
 /* UTILS */
 
 .debug,
@@ -48,4 +53,45 @@ ul {
 [class*="col"] {
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+/* HEADER  */
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-header {
+  display: flex;
+  align-items: center;
+  padding: 10px 0 10px 5px;
+}
+.logo {
+  margin-right: 20px;
+}
+
+.right-header {
+  display: flex;
+  align-items: center;
+  padding: 10px 0 10px 5px;
+}
+
+.white-button {
+  background-color: white;
+  border: none;
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+
+.blue-button {
+  background-color: #0062fe;
+  padding: 5px 10px;
+  margin-right: 1rem;
+  margin-left: 1rem;
+
+  color: white;
+  border: none;
+  font-size: 1rem;
+  font-weight: 200;
 }
