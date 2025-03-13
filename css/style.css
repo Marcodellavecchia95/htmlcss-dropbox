@@ -201,7 +201,9 @@ h1 {
 .main-section .col33 {
   border: 2px solid #f8f8f8;
 }
-
+.col33-main span {
+  color: grey;
+}
 .col33-header {
   display: flex;
   justify-content: center;
