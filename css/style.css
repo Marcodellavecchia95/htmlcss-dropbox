@@ -309,3 +309,70 @@ h1 {
 .card-bottom p {
   line-height: 130%;
 }
+
+/* PRE-FOOTER */
+
+.pre-footer {
+  margin: 150px 0;
+}
+
+.pre-footer a {
+  text-decoration: underline;
+  color: #2037b3;
+}
+
+/* FOOTER  */
+.containerxl {
+  max-width: 1500px;
+}
+
+.page-footer {
+  background-color: #000000;
+  border-left: 2px solid white;
+}
+
+.col20 {
+  width: 20%;
+}
+
+.footer-card h3 {
+  color: white;
+  margin-top: 100px;
+  margin-bottom: 40px;
+  font-size: 1.5rem;
+}
+
+.footer-card a {
+  color: white;
+}
+
+.footer-card li {
+  display: block;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.footer-separation-row {
+  height: 2px;
+  width: 120px;
+  background-color: #f8f8f8;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+.language {
+  display: flex;
+  padding-bottom: 30px;
+}
+
+.language i {
+  color: #999999;
+}
+
+.language p {
+  color: #999999;
+  margin: 0 10px;
+}
+
+.fa-sort-up {
+  line-height: 24px;
+}
