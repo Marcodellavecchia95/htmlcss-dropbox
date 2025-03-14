@@ -408,15 +408,9 @@ h1 {
   background-color: #0093ce;
 }
 
-.design {
-  filter: invert(100%);
-}
-
-.florida {
-  filter: invert(100%);
-}
 .bonus-logo {
-  max-width: 100%;
-  max-height: 100%;
+  max-width: 75%;
+  max-height: 75%;
   padding: 50px 0;
+  filter: invert(100%);
 }
